@@ -1,0 +1,148 @@
+/*FUENTES*/
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url('fonts/TrebuchetMS.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/websymbols-regular-webfont.woff') format('woff'),
+        url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+        url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Barra de navegacion */
+
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: rgba(94, 92, 83, .5);
+}
+
+nav a {
+    font-weight: bold;
+    font-family: "TrebuchetMS";
+    transition: all 300ms;
+}
+
+.menu-item {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+.menu-item:hover {
+    color: #c59d5f !important;
+}
+
+.page-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 300ms;
+}
+
+.page-title:hover {
+    color: #c59d5f !important;
+}
+
+/* Fin de Barra de navegacion */
+
+/*Inicio de back contents*/
+
+.b-example-divider {
+    height: 30rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+.bg1 {
+    background-image: url('../img/ajoloquecas.jpg');
+}
+
+.bg2 {
+    background-image: url('../img/foodII.jpg');
+}
+
+.bg3 {
+    background-image: url('../img/comidaI.jpg');
+}
+
+
+/*Fin de back contents*/
+#container-general {
+    background: url("../img/pattern.png");
+}
+
+.content {
+    margin-bottom: 28rem;
+}
+
+/* Contenidos */
+
+.contenedor {
+    text-align: center;
+}
+
+.title {
+    font-family: "TrebuchetMS";
+    color: #c59d5f;
+}
+
+.content-text {
+    text-align: justify;
+}
+
+.imagen-show {
+    border: 1px solid #333;
+    box-shadow: 0px 0px 50px grey;
+}
+
+#link-general {
+    text-decoration: none;
+    color: #c59d5f;
+    transition: all 300ms;
+}
+
+#link-general:hover {
+    color: black;
+}
+
+/* Fin de Contenidos */
+
+footer {
+    margin-top: 4rem;
+    margin: 0 auto;
+    background-color: #1b1e1f;
+    border: 1px solid #333;
+    color: #d1d4d1;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px grey;
+}
